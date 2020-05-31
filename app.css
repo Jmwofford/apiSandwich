@@ -2,17 +2,18 @@ body {
   background-color: blue;
   height: 300vh;
   font-family: serif;
+  padding: 22px;
 }
 .parent {
-  border: double white;
-  border-width: 5px;
+  border: solid white;
   padding: 22px;
   /* display: flex; */
   height: 200vh;
   justify-content: space-around;
 }
 .child {
-  border: solid orange;
+  border: solid white;
+  background-color: grey;
   width: 97%;
   display: flex;
   justify-content: space-around;
@@ -43,6 +44,7 @@ body {
 .btn_3 {
   border: solid black;
   border-radius: 22px;
+  border-width: 1px;
   padding: 12px;
   margin: 8px;
   text-align: center;
@@ -53,6 +55,7 @@ body {
 .btn_2:hover,
 .btn_3:hover {
   border: solid black;
+  transition: 0.5s;
   border-radius: 22px;
   padding: 12px;
   margin: 8px;
@@ -60,4 +63,39 @@ body {
   color: green;
   font-size: 22px;
   background-color: lightskyblue;
+}
+.para {
+  border: solid white;
+  border-width: 2px;
+  height: 300px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 22px;
+  text-align: center;
+  background-color: grey;
+  /* position: fixed; */
+  /* display: flex; */
+}
+.registrar {
+  border: solid lightblue;
+  padding: 2em;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: 60%;
+  height: 60px;
+}
+input {
+  font-size: 13px;
+  padding: 12px;
+  border-radius: 25px;
+  width: 65%;
+  text-align: center;
+}
+input:hover {
+  font-size: 13px;
+  padding: 12px;
+  border-radius: 25px;
+  background-color: lightgreen;
+  width: 65%;
+  text-align: center;
 }
