@@ -1,14 +1,13 @@
 body {
-  background-color: blue;
+  background-color: seagreen;
   height: 300vh;
   font-family: serif;
-  padding: 22px;
 }
 .parent {
   border: solid white;
   padding: 22px;
   /* display: flex; */
-  height: 200vh;
+  height: 300vh;
   justify-content: space-around;
 }
 .child {
@@ -20,42 +19,51 @@ body {
   padding: 12px;
 }
 .screen {
-  width: 100%;
+  width: 95%;
   border-width: 52px;
   border: solid white;
-  height: 20%;
-  background-color: black;
+  height: auto;
+  color: white;
+  background-color: grey;
+  font-size: 28px;
+  text-align: center;
+  padding: 20px;
 }
 .button_menu {
   /* border: solid grey; */
-  padding: 1em;
+  padding: 22px;
   height: 80%;
-  width: 40%;
-  margin: 20px;
+  width: 20%;
+  margin: 10px;
   border-radius: 35px;
+  /* display: flex; */
+  justify-content: space-around;
 }
 .text_box {
   border: solid white;
-  width: 60%;
+  width: 40%;
+  padding: 20px;
+  font-size: 23px;
   height: auto;
 }
 .btn_1,
 .btn_2,
 .btn_3 {
-  border: solid black;
+  border: solid white;
   border-radius: 22px;
-  border-width: 1px;
+  border-width: 2px;
   padding: 12px;
   margin: 8px;
   text-align: center;
   color: white;
+
   font-size: 22px;
 }
 .btn_1:hover,
 .btn_2:hover,
 .btn_3:hover {
-  border: solid black;
-  transition: 0.5s;
+  /* border: solid black; */
+  transition: 0.3s;
   border-radius: 22px;
   padding: 12px;
   margin: 8px;
@@ -90,6 +98,7 @@ input {
   border-radius: 25px;
   width: 65%;
   text-align: center;
+  color: black;
 }
 input:hover {
   font-size: 13px;
@@ -98,4 +107,42 @@ input:hover {
   background-color: lightgreen;
   width: 65%;
   text-align: center;
+}
+.submit {
+  border: solid red;
+  border-radius: 50px;
+  padding: 3px;
+  width: 25%;
+  height: 5%;
+  margin-left: 35%;
+  margin-top: 8px;
+  border-width: 1px;
+}
+.submit:hover {
+  border: solid green;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 3px;
+  width: 25%;
+  height: 5%;
+  margin-left: 35%;
+  background-color: green;
+  margin-top: 8px;
+}
+.new {
+  text-align: center;
+  border: solid green;
+  margin: 12px;
+  height: 20%;
+}
+.meal_container {
+  margin: 22px;
+  border: solid white;
+  padding: 1em;
+  font-size: 48px;
+  color: white;
+}
+#alg {
+  margin-left: 15%;
+  /* width: 100%; */
 }
