@@ -1,4 +1,5 @@
 console.log($);
+
 const screen_cast = () => {
   $(".screen").prepend("<div class='new'><h3>Some Information</h3><div>");
 };
